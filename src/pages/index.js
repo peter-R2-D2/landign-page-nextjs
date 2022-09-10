@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Row, Col } from 'react-bootstrap'
-import ProductList from '../../components/ProductList'
-import User from '../../components/User'
+import ProductList from '../components/ProductList'
+import User from '../components/User'
 
 export default function Home() {
   return (

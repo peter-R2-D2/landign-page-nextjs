@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from './Products'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTableCellsLarge, faList, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faTableCellsLarge, faList, faAngleDown, } from '@fortawesome/free-solid-svg-icons'
 
 export default function ProductList() {
   return (

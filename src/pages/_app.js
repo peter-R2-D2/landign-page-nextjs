@@ -1,5 +1,5 @@
-import NavbarList from '../../components/NavbarList'
-import Footer from '../../components/Footer';
+import NavbarList from '../components/NavbarList'
+import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/main.css'
 import { config } from '@fortawesome/fontawesome-svg-core';

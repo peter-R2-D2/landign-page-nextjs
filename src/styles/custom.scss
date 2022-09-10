@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+$body-font: 'Poppins', sans-serif;
+
 body {
   height: 100%;
+  width: 100%;
+  font-family: $body-font;
+  background-color: #0E1623;
 }
 
-
 .user__img {
-  width: 199px;
-  height: 199px;
+  width: 208px;
+  height: 208px;
   background-color: gray;
-  border-radius: 99%;
+  border-radius: 100%;
 }
 
 .text-yellow {
@@ -18,10 +23,32 @@ body {
   color: #1F89F9
 }
 
+.text-font-16 {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #030509;
+  height: 312px;
+
+  &-icons {
+    color: #FFF;
+    width: 42px;
+    height: 42px;
+    background-color: #0F1219;
+    border-radius: 100%;
+  }
+
+  &-bg-btn {
+    background-color: #1F89F9;
+  }
+}
+
 $theme-colors: (
   "body-bg": #0E1623,
   "body-color": #EBEBEB,
   "secondary": #3B5D82,
+  "info": #1F89F9,
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
