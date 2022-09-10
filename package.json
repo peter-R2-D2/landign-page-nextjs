@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass --watch src/styles/custom.scss:src/styles/main.css"
   },
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.2.0",

@@ -1,7 +1,7 @@
-import NavbarList from '../components/NavbarList'
-import Footer from '../components/Footer';
+import NavbarList from '../../components/NavbarList'
+import Footer from '../../components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/custom.scss'
+import '../styles/main.css'
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false

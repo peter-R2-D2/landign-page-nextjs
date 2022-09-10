@@ -19,12 +19,12 @@ export default function Products() {
         products.map(product => (
           <Col md='4' key={product.id} className='mb-3'>
             <Card className='text-white bg-body border-0'>
-              <Card.Img className='rounded-3' variant='top' src="https://random.imagecdn.app/100/80" />
+              <Card.Img className='rounded-3' variant='top' src="https://random.imagecdn.app/224/282" />
               <Card.Body>
                 <h3>{product.title}</h3>
                 <span className='text-decoration-line-through'>{product.descount}</span>
                 <h2 className='text-yellow'>{product.price}</h2>
-                <div className='d-flex'>
+                <div className='d-flex mt-4'>
                   <FontAwesomeIcon icon={faBagShopping} className='fs-4 text-blue' />
                   <p className='ms-3'>add to bag</p>
                 </div>
