@@ -2,6 +2,7 @@ import React from 'react'
 import {Card, Row, Col} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
+import PaginationProducts from './PaginationProducts'
 
 export default function Products() {
   const products = [
@@ -19,9 +20,9 @@ export default function Products() {
         products.map(product => (
           <Col md='4' key={product.id} className='mb-3'>
             <Card className='text-white bg-body border-0'>
-              <Card.Img className='rounded-3' variant='top' src="https://random.imagecdn.app/224/282" />
+              <Card.Img className='rounded-3 border-blue' variant='top' src="https://random.imagecdn.app/224/282" />
               <Card.Body>
-                <h3>{product.title}</h3>
+                <p className='fs-20'>{product.title}</p>
                 <span className='text-decoration-line-through'>{product.descount}</span>
                 <h2 className='text-yellow'>{product.price}</h2>
                 <div className='d-flex mt-4'>
@@ -33,6 +34,9 @@ export default function Products() {
           </Col>
         ))
       }
+      <Col md='12' className='d-flex justify-content-center'>
+        <PaginationProducts />
+      </Col>
     </Row>
   )
 }

@@ -1,10 +1,9 @@
+import UserImg from "../assets/user/UserImg"
+
 export default function User() {
   return (
-    <div className='mt-5 d-flex flex-column align-items-center justify-content-center ' style={{height: '733px'}}>
-      <div className="user__img">
-
-      </div>
-
+    <div className='mt-5 d-flex flex-column align-items-center justify-content-center' style={{height: '733px'}}>
+      <UserImg />
       <div>
         <h1 className="text-center">Betsymar Sandoval</h1>
         <p className="text-yellow text-center fs-4">Ilustrator - Bird Enthusiast</p>

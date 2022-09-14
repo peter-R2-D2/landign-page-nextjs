@@ -12,9 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='text-white'>
+      <main className='text-white border-y-blue'>
           <Row>
-            <Col md={4}>
+            <Col md={4} className='border-r-blue'>
               <User />
             </Col>
             <Col md={8}>

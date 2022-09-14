@@ -2,13 +2,14 @@ import React from 'react'
 import { Col, Row, Form, InputGroup, Button, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebookF, faTwitter, faTiktok, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import Logo from '../assets/logo/Logo'
 
 
 export default function Footer() {
   return (
     <Row className='footer align-items-center justify-content-center text-white'>
-      <Col md={3}>
-        <p className='fs-3 text-center fw-bold'>ANEMALSOUL</p>
+      <Col md={3} className='text-center'>
+        <Logo width='172.28' height='173' />
       </Col>
       <Col md={3}>
         <p className='m-0'><span className='fw-bold'>Email:</span> anemal@anemalstore.com</p>
@@ -37,7 +38,7 @@ export default function Footer() {
           <p>Sign up for subscribe out newsletter!</p>
           <InputGroup className="mb-3">
             <Form.Control
-              className='py-3'
+              className='py-3 border border-0'
               placeholder="Your Email"
             />
             <Button className='text-uppercase text-white' variant='info'>Subscribe</Button>

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 $body-font: 'Poppins', sans-serif;
 
-body {
+html,
+body,
+#__next {
   height: 100%;
   width: 100%;
   font-family: $body-font;
@@ -16,15 +18,46 @@ body {
 }
 
 .text-yellow {
-  color: yellow;
+  color: #C0EF36;
+}
+
+.text-nav {
+  color: #EBEBEB;
+}
+
+.bg-nav-icon {
+  width: 24px;
+  height: 24px;
+  color: #3B5D82;
+}
+
+.border-blue {
+  border: 1px solid #3B5D82;
+}
+
+.border-y-blue {
+  border-top: 1px solid #3B5D82;
+  border-bottom: 1px solid #3B5D82;
+}
+
+.border-r-blue {
+  border-right: 1px solid #3B5D82;
 }
 
 .text-blue {
   color: #1F89F9
 }
 
-.text-font-16 {
+.fs-16 {
   font-size: 16px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.mr-5 {
+  margin-right: 53.86px;
 }
 
 .footer {
@@ -49,6 +82,8 @@ $theme-colors: (
   "body-color": #EBEBEB,
   "secondary": #3B5D82,
   "info": #1F89F9,
+  "white": #EBEBEB,
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./pagination";
