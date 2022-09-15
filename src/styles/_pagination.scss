@@ -31,7 +31,7 @@
   display: block;
   padding: var(--#{$prefix}pagination-padding-y) var(--#{$prefix}pagination-padding-x);
   @include font-size(var(--#{$prefix}pagination-font-size));
-  color: var(--#{$prefix}pagination-color);
+  color: #EBEBEB;
   text-decoration: if($link-decoration ==none, null, none);
   background-color: transparent;
   border: none;
@@ -66,6 +66,15 @@
     pointer-events: none;
     background-color: transparent;
     border-color: var(--#{$prefix}pagination-disabled-border-color);
+  }
+}
+
+.btn-pg-first,
+.btn-pg-prev,
+.btn-pg-next,
+.btn-pg-last {
+  &.page-item>.page-link {
+    color: var(--#{$prefix}pagination-color);
   }
 }
 

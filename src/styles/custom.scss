@@ -87,3 +87,27 @@ $theme-colors: (
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./pagination";
+
+.shopping-cart {
+  background: #3B5D82;
+  max-width: 24px;
+  max-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #EBEBEB;
+}
+
+.magnifying-glass {
+  font-size: 14px;
+}
+
+.card.product-card {
+  max-width: 224px;
+}
+
+.nav-icons {
+  gap: 15px;
+}

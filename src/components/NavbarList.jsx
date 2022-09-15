@@ -19,13 +19,15 @@ export default function NavbarList() {
           <Nav.Link className="mr-5 text-white">About</Nav.Link>
           <Nav.Link className="mr-5 text-white">Contact</Nav.Link>
           <Nav.Link className="mr-5 text-white">Shop</Nav.Link>
-          <Nav.Link>|</Nav.Link>
-          <Nav.Link>
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
-          </Nav.Link>
-          <Nav.Link className="bg-nav-icon d-flex justify-content-center aling-items-center">
-            <FontAwesomeIcon icon={faBagShopping} />
-          </Nav.Link>
+          <div className='d-flex justify-content-center align-items-center nav-icons'>
+            <span className='text-light'>|</span>
+            <Nav.Link>
+              <FontAwesomeIcon icon={faMagnifyingGlass} className='magnifying-glass' />
+            </Nav.Link>
+            <Nav.Link className="shopping-cart">
+              <FontAwesomeIcon icon={faBagShopping}/>
+            </Nav.Link>
+          </div>
         </Nav>
       </Container>
 

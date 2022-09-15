@@ -19,7 +19,7 @@ export default function Products() {
       {
         products.map(product => (
           <Col md='4' key={product.id} className='mb-3'>
-            <Card className='text-white bg-body border-0'>
+            <Card className='text-white bg-transparent border-0 product-card'>
               <Card.Img className='rounded-3 border-blue' variant='top' src="https://random.imagecdn.app/224/282" />
               <Card.Body>
                 <p className='fs-20'>{product.title}</p>

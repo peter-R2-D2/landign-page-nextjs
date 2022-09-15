@@ -14,10 +14,10 @@ export default function Home() {
 
       <main className='text-white border-y-blue'>
           <Row>
-            <Col md={4} className='border-r-blue'>
+            <Col md={3} className='border-r-blue'>
               <User />
             </Col>
-            <Col md={8}>
+            <Col md={9}>
               <ProductList />
             </Col>
           </Row>

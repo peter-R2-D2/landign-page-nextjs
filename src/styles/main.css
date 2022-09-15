@@ -10598,7 +10598,7 @@ textarea.form-control-lg {
   display: block;
   padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
   font-size: var(--bs-pagination-font-size);
-  color: var(--bs-pagination-color);
+  color: #EBEBEB;
   text-decoration: none;
   background-color: transparent;
   border: none;
@@ -10634,6 +10634,13 @@ textarea.form-control-lg {
   border-color: var(--bs-pagination-disabled-border-color);
 }
 
+.btn-pg-first.page-item > .page-link,
+.btn-pg-prev.page-item > .page-link,
+.btn-pg-next.page-item > .page-link,
+.btn-pg-last.page-item > .page-link {
+  color: var(--bs-pagination-color);
+}
+
 .page-item:not(:first-child) .page-link {
   margin-left: -1px;
 }
@@ -10658,6 +10665,30 @@ textarea.form-control-lg {
   --bs-pagination-padding-y: 0.25rem;
   --bs-pagination-font-size: 0.875rem;
   --bs-pagination-border-radius: 0.25rem;
+}
+
+.shopping-cart {
+  background: #3B5D82;
+  max-width: 24px;
+  max-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #EBEBEB;
+}
+
+.magnifying-glass {
+  font-size: 14px;
+}
+
+.card.product-card {
+  max-width: 224px;
+}
+
+.nav-icons {
+  gap: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
